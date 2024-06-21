@@ -1,3 +1,5 @@
+//David Ogunbanjo
+//Project description: this project is to compute points depending on the total item the individual have
 package IGGSystemPoints;
 public class Main {
     public static void main(String[] args){

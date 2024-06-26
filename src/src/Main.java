@@ -6,16 +6,23 @@ public class Main {
     	int TopCommanderPoints = 0;
        PhaseOne p1 = new PhaseOne();
        PhaseTwo p2 = new PhaseTwo();
+       PhaseThree p3 = new PhaseThree();
       
        int phaseOne = p1.ToString();
        int phaseTwo = p2.ToString();
+       int phaseThree = p3.ToString();
+
+
        System.out.println("------------------------------");
        System.out.print("|Phase 1 total points: "+phaseOne+"\n");
        System.out.println("------------------------------");
        System.out.println("------------------------------");
        System.out.print("|Phase 2 total points: "+phaseTwo+"\n");
        System.out.println("------------------------------");
-       TopCommanderPoints = phaseOne + phaseTwo;
+       System.out.println("------------------------------");
+       System.out.print("|Phase 3 total points: "+phaseThree+"\n");
+       System.out.println("------------------------------");
+       TopCommanderPoints = phaseOne + phaseTwo + phaseThree;
        
        
        System.out.println("Top Commander Total Points: " + TopCommanderPoints);

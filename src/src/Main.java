@@ -4,28 +4,42 @@
 public class Main {
     public static void main(String[] args){
     	int TopCommanderPoints = 0;
-       PhaseOne p1 = new PhaseOne();
-       PhaseTwo p2 = new PhaseTwo();
-       PhaseThree p3 = new PhaseThree();
+        PhaseOne p1 = new PhaseOne();
+        PhaseTwo p2 = new PhaseTwo();
+        PhaseThree p3 = new PhaseThree();
+        PhaseFour p4 = new PhaseFour();
+        PhaseFive p5 = new PhaseFive();
       
-       int phaseOne = p1.ToString();
-       int phaseTwo = p2.ToString();
-       int phaseThree = p3.ToString();
+        int phaseOne = p1.ToString();
+        int phaseTwo = p2.ToString();
+        int phaseThree = p3.ToString();
+        int phaseFour = p4.ToString();
+        int phaseFive = p5.ToString();
 
 
-       System.out.println("------------------------------");
-       System.out.print("|Phase 1 total points: "+phaseOne+"\n");
-       System.out.println("------------------------------");
-       System.out.println("------------------------------");
-       System.out.print("|Phase 2 total points: "+phaseTwo+"\n");
-       System.out.println("------------------------------");
-       System.out.println("------------------------------");
-       System.out.print("|Phase 3 total points: "+phaseThree+"\n");
-       System.out.println("------------------------------");
-       TopCommanderPoints = phaseOne + phaseTwo + phaseThree;
+        System.out.println("------------------------------");
+        System.out.print("|Phase 1 total points: "+phaseOne+"\n");
+        System.out.println("------------------------------");
+        System.out.println("------------------------------");
+        System.out.print("|Phase 2 total points: "+phaseTwo+"\n");
+        System.out.println("------------------------------");
+        System.out.println("------------------------------");
+        System.out.print("|Phase 3 total points: "+phaseThree+"\n");
+        System.out.println("------------------------------");
+        System.out.println("------------------------------");
+        System.out.print("|Phase 4 total points: "+phaseFour+"\n");
+        System.out.println("------------------------------");
+        System.out.println("------------------------------");
+        System.out.print("|Phase 5 total points: "+phaseFive+"\n");
+        System.out.println("------------------------------");
+        TopCommanderPoints = phaseOne + phaseTwo + phaseThree + phaseFour + phaseFive;
+
+
        
        
-       System.out.println("Top Commander Total Points: " + TopCommanderPoints);
+         System.out.println("Top Commander Total Points: " + TopCommanderPoints);
+
+
     }
 }
 //Plan

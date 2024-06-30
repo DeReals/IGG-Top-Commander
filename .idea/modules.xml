@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/IGGTC.iml" filepath="$PROJECT_DIR$/IGGTC.iml" />
-      <module fileurl="file://$PROJECT_DIR$/IGG Game TC/src.iml" filepath="$PROJECT_DIR$/IGG Game TC/src.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IGG Game/src.iml" filepath="$PROJECT_DIR$/IGG Game/src.iml" />
     </modules>
   </component>
 </project>
